@@ -1,0 +1,7 @@
+{
+  "dependencies": [
+    "boost-describe",
+    "boost-mp11",
+    "arrow"
+  ]
+}

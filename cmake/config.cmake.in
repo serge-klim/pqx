@@ -1,0 +1,9 @@
+@PACKAGE_INIT@
+
+find_dependency (Boost CONFIG REQUIRED)
+find_package(Arrow CONFIG REQUIRED)
+find_package(Parquet CONFIG REQUIRED)
+
+
+include(${CMAKE_CURRENT_LIST_DIR}/pqx-targets.cmake)
+check_required_components(pqx_FIND_COMPONENTS)
